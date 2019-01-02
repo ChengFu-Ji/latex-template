@@ -1,0 +1,39 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[a4paper]{article}
+\usepackage[margin=3cm]{geometry}%邊界
+\usepackage{xeCJK, fontspec, type1cm, txfonts, indentfirst}
+\usepackage{color}
+\usepackage{subcaption}
+\usepackage{cite}
+\usepackage{booktabs}
+\usepackage{listings}%程式碼
+\usepackage{graphicx}%載入圖片
+\usepackage{caption}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{wallpaper}% water mark
+\bibliographystyle{unsrt}
+\setmainfont{Times New Roman}
+\XeTeXlinebreaklocale "zh"
+\setCJKfamilyfont{xxm}{PMingLiU}
+\CenterWallPaper{.18}{image/watermark.jpg}
+\title{基於Apache Spark 建構XML Veracity 真實度之模型}
+\date{}
+
+\begin{document}
+\maketitle
+\renewcommand{\abstractname}{中文摘要}
+\begin{abstract}
+近幾年大數據的數據量飛快地成長，超過TB等級的數據已是隨處可見，而數據傳輸在大數據中是一個重點探討的問題，大數據在做資料交會的時候，由於資料量龐大，所以資料的真實度不易掌控，也就是大數據5V當中的Veracity是我們最關切的問題。\\\par
+而XML(延伸標記語言 eXtensible Markup Language)作為現今通用的網路資料交換格式，隨著網際網路資料的增長，也已經同樣具有大數據(Big Data)的特徵，在近幾年來，產業界與學界都將大數據列為重要研究議題，並投入相當多的資源支持大數據的研究。\\\par
+本研究提出使用Apache Spark建構XML Veracity真實度模型以及真實度查詢模組，來解決大數據在資料傳輸當中我們所關心的真實度Veracity的計算問題，並可以讓使用者知道文件有多少可信度，XML真實度模型計分是一個給定一個或多個XML文件，讓模型進行與標準XML文件做結構、版本或編碼的比較，並給訂一個分數的系統，本研究建構一個利用Apache Spark 的平行化處理，加速真實度模型整體的運算速遞及效能的模組，讓使用者進行批次或是串流的XML文件上傳，再將上傳文件放入由Apache Spark建構的真實度計分模型來進行真實度計分，XML文件真實度我們可以由幾個指標來判斷，例如文件結構、文件深度、文件內元素數量及標籤名稱相似度等，再使用Apache Spark所提供的SparkSQL API，進行XML文件真實度查詢，查詢的功能可以從眾多文件中查詢與標準文件相似度最高的文件以及查詢有相關標籤名稱的文件，或是相同編碼的文件，抑或是在真實度積分當中同分或是相差多少分的文件，以上這一些功能的實作有助於使用者在面對大量XML資料的時候能狗有一個真實度計分的量化標準，在未來開發大數據應用的時候，可以對於在傳輸資料的時候有一個依據來知道資料的可靠程度。
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\input{section1}
+\end{document}
