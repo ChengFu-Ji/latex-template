@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.24)  2 JAN 2019 14:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.24)  9 FEB 2019 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,17 +813,11 @@ LaTeX Info: Redefining \not on input line 1043.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
-Package color Info: Driver file: xetex.def on input line 147.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
-))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
@@ -845,11 +839,6 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@subfigure=\count196
 \c@subtable=\count197
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
@@ -909,7 +898,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
-)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
 \Gin@req@height=\dimen198
 \Gin@req@width=\dimen199
 )
@@ -992,7 +984,10 @@ Type  H <return>  for immediate help.
                                                   
 l.635 ...d{\iint}{\DOTSI\protect\MultiIntegral{2}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \iiint already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1003,7 +998,10 @@ Type  H <return>  for immediate help.
                                                   
 l.636 ...{\iiint}{\DOTSI\protect\MultiIntegral{3}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \iiiint already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1014,7 +1012,10 @@ Type  H <return>  for immediate help.
                                                   
 l.637 ...\iiiint}{\DOTSI\protect\MultiIntegral{4}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \idotsint already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1025,7 +1026,10 @@ Type  H <return>  for immediate help.
                                                   
 l.638 ...dotsint}{\DOTSI\protect\MultiIntegral{0}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 \Mathstrutbox@=\box46
 \strutbox@=\box47
 \big@size=\dimen258
@@ -1084,7 +1088,23 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
 \wpXoffset=\skip65
 \wpYoffset=\skip66
 \tileXoffset=\skip67
@@ -1116,7 +1136,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 16.
 
 *************************************************
 * xeCJK warning: "CJKfamilydefault-undefined"
@@ -1167,43 +1187,43 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 (./masterThesis.aux)
 \openout1 = `masterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 25.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 25.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 23.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 23.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 25.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 23.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 25.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 23.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 25.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 23.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1246,89 +1266,89 @@ LaTeX Font Info:    ... okay on input line 25.
 .................................................
 \symlegacymaths=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 25.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 25.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 25.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 25.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 25.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 25.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 25.
-LaTeX Font Info:    Redeclaring math accent \check on input line 25.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 25.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 25.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 25.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 25.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
+LaTeX Font Info:    Redeclaring math accent \check on input line 23.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 25.
+(Font)              `operators' in the math version `normal' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/txr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-5.
+3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 25.
+(Font)              `operators' in the math version `bold' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/txr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-25.
+23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 25.
+input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/txr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 25.
+ 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/txr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 25.
+ 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> TU/txss/m/n on input line 25.
+(Font)                  OT1/txss/m/n --> TU/txss/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> TU/txtt/m/n on input line 25.
+(Font)                  OT1/txtt/m/n --> TU/txtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 25.
+ input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/txr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 25.
+ne 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> TU/txss/bx/n on input line 25.
+(Font)                  OT1/txss/b/n --> TU/txss/bx/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> TU/txtt/bx/n on input line 25.
+(Font)                  OT1/txtt/b/n --> TU/txtt/bx/n on input line 23.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count304
 \AtBeginShipoutBox=\box48
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 24.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 26.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 24.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 26.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 24.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 26.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 24.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 26.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 24.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -1338,15 +1358,15 @@ LaTeX Warning: No \author given.
 
 
 LaTeX Font Warning: Font shape `TU/PMingLiU(0)/bx/n' undefined
-(Font)              using `TU/PMingLiU(0)/m/n' instead on input line 28.
+(Font)              using `TU/PMingLiU(0)/m/n' instead on input line 26.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
  []
 
@@ -1371,21 +1391,120 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+
+ []
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+(./example.xml)
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [4] (./john.xml) (./business.xsd)
+
+LaTeX Warning: Citation `hadoop' on page 5 undefined on input line 22.
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+
+ []
+
+
+LaTeX Warning: Citation `spark' on page 6 undefined on input line 29.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+
+LaTeX Warning: Citation `rdd' on page 6 undefined on input line 30.
+
+File: /Users/FUDA/Documents/latex/masterThesis/image/RDD.png Graphic file (type
+ bmp)
+</Users/FUDA/Documents/latex/masterThesis/image/RDD.png>
+File: /Users/FUDA/Documents/latex/masterThesis/image/spark.png Graphic file (ty
+pe bmp)
+</Users/FUDA/Documents/latex/masterThesis/image/spark.png>
+
+Overfull \hbox (151.3881pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[7]
+
+LaTeX Warning: Citation `bigdata' on page 8 undefined on input line 67.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+
+ []
+
+
+LaTeX Warning: Citation `veracitymodel' on page 8 undefined on input line 69.
+
 )
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [4] (./masterThesis.aux)
+ [8] (./section2.tex)
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [9] (./section3.tex)
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [10] (./section4.tex)
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [11]
+(./masterThesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 17767 strings out of 492970
- 372521 string characters out of 6133938
- 461939 words of memory out of 5000000
- 21576 multiletter control sequences out of 15000+600000
- 547764 words of font info for 105 fonts, out of 8000000 for 9000
+ 18376 strings out of 492970
+ 381066 string characters out of 6133938
+ 521084 words of memory out of 5000000
+ 22146 multiletter control sequences out of 15000+600000
+ 550818 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 42i,10n,65p,10437b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,65p,10442b,1066s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on masterThesis.pdf (4 pages).
+Output written on masterThesis.pdf (11 pages).
