@@ -1,0 +1,27 @@
+\addcontentsline{toc}{section}{摘要}
+\begin{center}
+
+\large{基於Apache Spark 建構串流 XML Veracity 真實度之模型}\\
+\vspace{0.83cm}
+
+\makebox[3cm][r]{\large{學生：}}
+\makebox[3cm][l]{\large{紀承甫}}
+\hfill
+\makebox[3cm][r]{\large{指導教授：}}
+\makebox[3cm][l]{\large{陳世穎}}
+\vspace{0.83cm}
+\\
+\large{國立臺中科技大學}\large{ 資訊工程系}
+\vspace{0.83cm}
+\renewcommand{\abstractname}{摘要}
+\begin{abstract}
+%近幾年大數據的數據量飛快地成長，超過TB等級的數據已是隨處可見。而數據傳輸在大數據中是一個重點探討的問題，大數據在做資料交換的時候，由於資料量龐大，所以資料的真實度不易掌控，也就是大數據5V當中的Veracity是我們最關切的問題。\\\par
+%而XML(延伸標記語言 eXtensible Markup Language)作為現今通用的網路資料交換格式，隨著網際網路資料的增長，也已經同樣具有大數據(Big Data)的特徵。在近幾年來，產業界與學界都將大數據列為重要研究議題，並投入相當多的資源支持大數據的研究。\\\par
+%本研究提出使用Apache Spark建構串流XML Veracity真實度模型以及真實度模型應用程式開發介面(Veracity Model Application Programming Interface, Veracity Model API)，來解決大數據在資料傳輸當中我們所關心的真實度Veracity的問題，並可以讓使用者知道文件有多少可信度。XML真實度模型計分是一個給定一個被量測XML文件，讓模型進行被量測XML文件與標準XML文件的比較，並給定一個量化分數的系統。本研究建構一個利用Apache Spark 的平行化處理，加速真實度模型整體的運算速遞及效能的模組。讓使用者進行串流的XML文件上傳，再將上傳文件放入由Apache Spark建構的真實度計分模型來進行真實度計分，XML文件真實度有很多面向可以做詮釋。本研究設計一個基於物件導向程式設計的真實度模型，藉由物件導向的特性，設計抽象類別來建構一個真實度的維度$(Dimension\ i, D_i)$，再讓使用者繼承此類別實作模型的功能。換言之就是讓使用者決定需要有什麼樣的屬性$(Attribute\ j, A_{i, j})$才可以評價真實度，以及需要有什麼樣的量化和計分方式才可以將真實度呈現出來。如此這個模型的設計將具有彈性且有助於使用者在面對大量XML資料的時候能夠有一個真實度計分的量化標準。在未來開發大數據應用的時候，可以對於在傳輸資料的時候有一個依據來知道資料的可靠程度。
+近年大數據的數量飛速成長，而龐大的數據會產生大量的應用。每一個應用都會產生資料交換，XML (eXtensible Markup Language)作為現今通用的網路資料交換格式，隨著網際網路資料的增長，也已經同樣具有大數據(Big Data)的特徵。本研究建構XML真實度模型應用程式開發介面(XML Veracity Model API)來解決大數據在資料傳輸中真實度不易量化的問題。XML文件真實度基於資料理解性有很多面向可以做詮釋，使用真實度模型API，使用者可以自行設計自己所認為的文件真實度的維度以及屬性，並產生量化的分數。且為了因應現今串流資料應用的增加，且又因串流XML資料又有結構上的問題，難以驗證真實度。本研究將真實度模型應用到串流資料，並且使用Apache Spark 增加模型的處理效能，來達到快速處理串流XML的目的，以及驗證真實度模型的設計架構。\\
+\vspace{1.8em}
+\noindent\textbf{關鍵字}：巨量資料、XML、串流、Apache Spark、真實度
+\end{abstract}
+
+\end{center}
+\newpage

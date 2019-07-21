@@ -1,0 +1,61 @@
+\usepackage[margin=3cm, left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
+\usepackage[boldfont]{xeCJK}
+\usepackage{fontspec}
+\usepackage{type1cm}
+%\usepackage{txfonts}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{xCJKnumb}
+\usepackage{setspace}
+
+
+% reference
+\usepackage{cite}
+
+% image and table title
+\usepackage{caption}
+\usepackage{subcaption}
+
+%\usepackage{booktabs}
+\usepackage{listings}
+\lstset{xleftmargin=0.1cm, xrightmargin=0.1cm}
+
+% image
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+% for pseudo code
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+
+% for reference website url
+\usepackage{url}
+
+% for water mark
+\usepackage{wallpaper}
+
+% for table
+\usepackage{multirow}
+\usepackage{array}
+
+\bibliographystyle{unsrt}
+
+\setmainfont{Times New Roman}
+
+\XeTeXlinebreaklocale "zh"
+
+\setCJKfamilyfont{xxm}{PMingLiU}
+
+\linespread{1.5}
+
+\titlecontents{section}[0em]{\fontsize{13}{18}}{第\,\xCJKnumber{\thecontentslabel}\,章\,\quad}{}{\titlerule*[1ex]{.}\contentspage}
+\titlecontents{subsection}[2em]{\fontsize{11}{16}}{\thecontentslabel\,\quad}{}{\titlerule*[1ex]{.}\contentspage}
+
+\renewcommand{\figurename}{圖}
+\renewcommand{\tablename}{表}
+\newcommand{\loflabel}{圖}
+\newcommand{\lotlabel}{表}
+\titleformat{\section}{\centering\fontsize{14}{21}\bfseries}{第\,\xCJKnumber{\thesection}\,章}{1em}{}
+\titleformat*{\subsection}{\fontsize{12}{18}\bfseries}

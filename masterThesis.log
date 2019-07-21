@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.24)  9 FEB 2019 01:15
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.24)  21 JUL 2019 02:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -22,7 +22,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
+) (./config.tex
 (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
 
@@ -734,151 +734,78 @@ File: xeCJK.cfg 2018/04/07 v3.7.0 Configuration file for xeCJK package
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
 atched RF)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/txfonts.sty
-Package: txfonts 2008/01/22 v3.2.1
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
-\symitalic=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
-\symlettersA=\mathgroup5
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
-\symAMSa=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
-\symAMSb=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
-\symsymbolsC=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
-\symlargesymbolsA=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
-(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
-LaTeX Info: Redefining \not on input line 1043.
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box42
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen174
+\ttl@minus=\dimen175
+\ttl@toksa=\toks16
+\titlewidth=\dimen176
+\titlewidthlast=\dimen177
+\titlewidthfirst=\dimen178
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen179
+)
+(./xCJKnumb.sty
+Package: xCJKnumb 2006/10/17 4.7.0
+\xCJK@q=\count195
+\xCJK@r=\count196
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen174
-\captionmargin@=\dimen175
-\captionwidth=\dimen176
-\caption@tempdima=\dimen177
-\caption@indent=\dimen178
-\caption@parindent=\dimen179
-\caption@hangindent=\dimen180
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
 )
-\c@ContinuedFloat=\count195
+\c@ContinuedFloat=\count197
 )
-\c@subfigure=\count196
-\c@subtable=\count197
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen181
-\lightrulewidth=\dimen182
-\cmidrulewidth=\dimen183
-\belowrulesep=\dimen184
-\belowbottomsep=\dimen185
-\aboverulesep=\dimen186
-\abovetopsep=\dimen187
-\cmidrulesep=\dimen188
-\cmidrulekern=\dimen189
-\defaultaddspace=\dimen190
-\@cmidla=\count198
-\@cmidlb=\count199
-\@aboverulesep=\dimen191
-\@belowrulesep=\dimen192
-\@thisruleclass=\count266
-\@lastruleclass=\count267
-\@thisrulewidth=\dimen193
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count198
+\c@subtable=\count199
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count268
-\lst@gtempboxa=\box42
-\lst@token=\toks16
-\lst@length=\count269
-\lst@currlwidth=\dimen194
-\lst@column=\count270
-\lst@pos=\count271
-\lst@lostspace=\dimen195
-\lst@width=\dimen196
-\lst@newlines=\count272
-\lst@lineno=\count273
-\lst@maxwidth=\dimen197
+\lst@mode=\count266
+\lst@gtempboxa=\box43
+\lst@token=\toks17
+\lst@length=\count267
+\lst@currlwidth=\dimen187
+\lst@column=\count268
+\lst@pos=\count269
+\lst@lostspace=\dimen188
+\lst@width=\dimen189
+\lst@newlines=\count270
+\lst@lineno=\count271
+\lst@maxwidth=\dimen190
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count274
-\lst@skipnumbers=\count275
-\lst@framebox=\box43
+\c@lstnumber=\count272
+\lst@skipnumbers=\count273
+\lst@framebox=\box44
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -902,180 +829,27 @@ Package graphics Info: Driver file: xetex.def on input line 99.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen198
-\Gin@req@width=\dimen199
+\Gin@req@height=\dimen191
+\Gin@req@width=\dimen192
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count276
-\float@exts=\toks17
-\float@box=\box44
-\@float@everytoks=\toks18
-\@floatcapt=\box45
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks19
-\c@algorithm=\count277
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Package: algpseudocode 
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count278
-\c@ALG@rem=\count279
-\c@ALG@nested=\count280
-\ALG@tlm=\skip56
-\ALG@thistlm=\skip57
-\c@ALG@Lnr=\count281
-\c@ALG@blocknr=\count282
-\c@ALG@storecount=\count283
-\c@ALG@tmpcounter=\count284
-\ALG@tmplength=\skip58
-)
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip59
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen256
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen257
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count285
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count286
-\leftroot@=\count287
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count288
-\DOTSCASE@=\count289
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-
-
-! LaTeX Error: Command \iint already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.635 ...d{\iint}{\DOTSI\protect\MultiIntegral{2}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \iiint already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.636 ...{\iiint}{\DOTSI\protect\MultiIntegral{3}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \iiiint already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.637 ...\iiiint}{\DOTSI\protect\MultiIntegral{4}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \idotsint already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.638 ...dotsint}{\DOTSI\protect\MultiIntegral{0}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\Mathstrutbox@=\box46
-\strutbox@=\box47
-\big@size=\dimen258
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count290
-\c@MaxMatrixCols=\count291
-\dotsspace@=\muskip17
-\c@parentequation=\count292
-\dspbrk@lvl=\count293
-\tag@help=\toks21
-\row@=\count294
-\column@=\count295
-\maxfields@=\count296
-\andhelp@=\toks22
-\eqnshift@=\dimen259
-\alignsep@=\dimen260
-\tagshift@=\dimen261
-\tagwidth@=\dimen262
-\totwidth@=\dimen263
-\lineht@=\dimen264
-\@envbody=\toks23
-\multlinegap=\skip60
-\multlinetaggap=\skip61
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/wallpaper/wallpaper.sty
-Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
-
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count297
-\calc@Bcount=\count298
-\calc@Adimen=\dimen265
-\calc@Bdimen=\dimen266
-\calc@Askip=\skip62
-\calc@Bskip=\skip63
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen193
+\calc@Bdimen=\dimen194
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count299
-\calc@Cskip=\skip64
+\calc@Ccount=\count276
+\calc@Cskip=\skip60
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -1105,14 +879,142 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\wpXoffset=\skip65
-\wpYoffset=\skip66
-\tileXoffset=\skip67
-\tileYoffset=\skip68
-\tilewidth=\skip69
-\tileheight=\skip70
-\tileX=\skip71
-\tileY=\skip72
+\AM@pagewidth=\dimen195
+\AM@pageheight=\dimen196
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2017/10/31 v0.5l Pdfpages driver for XeTeX (AM)
+)
+\AM@pagebox=\box45
+\AM@global@opts=\toks18
+\AM@toc@title=\toks19
+\c@AM@survey=\count277
+\AM@templatesizebox=\box46
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count278
+\float@exts=\toks20
+\float@box=\box47
+\@float@everytoks=\toks21
+\@floatcapt=\box48
+)
+\@float@every@algorithm=\toks22
+\c@algorithm=\count279
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count280
+\c@ALG@rem=\count281
+\c@ALG@nested=\count282
+\ALG@tlm=\skip61
+\ALG@thistlm=\skip62
+\c@ALG@Lnr=\count283
+\c@ALG@blocknr=\count284
+\c@ALG@storecount=\count285
+\c@ALG@tmpcounter=\count286
+\ALG@tmplength=\skip63
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip64
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen197
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen198
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count287
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count288
+\leftroot@=\count289
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count290
+\DOTSCASE@=\count291
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen199
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count292
+\c@MaxMatrixCols=\count293
+\dotsspace@=\muskip17
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
+\tag@help=\toks24
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
+\andhelp@=\toks25
+\eqnshift@=\dimen256
+\alignsep@=\dimen257
+\tagshift@=\dimen258
+\tagwidth@=\dimen259
+\totwidth@=\dimen260
+\lineht@=\dimen261
+\@envbody=\toks26
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+\wpXoffset=\skip67
+\wpYoffset=\skip68
+\tileXoffset=\skip69
+\tileYoffset=\skip70
+\tilewidth=\skip71
+\tileheight=\skip72
+\tileX=\skip73
+\tileY=\skip74
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count299
+\multirow@dima=\skip76
+\bigstrutjot=\dimen262
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen263
+\ar@mcellbox=\box51
+\extrarowheight=\dimen264
+\NC@list=\toks28
+\extratabsurround=\skip77
+\backup@length=\skip78
+\ar@cellbox=\box52
 )
 \g__fontspec_family_TimesNewRoman_int=\count300
 .................................................
@@ -1136,8 +1038,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 16.
-
+LaTeX Info: Redefining \rmfamily on input line 45.
+)
 *************************************************
 * xeCJK warning: "CJKfamilydefault-undefined"
 * 
@@ -1155,12 +1057,12 @@ LaTeX Info: Redefining \rmfamily on input line 16.
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "PMingLiU/BI" (it probably doesn't exist).
+. Could not resolve font "PMingLiU/I" (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "PMingLiU/B" (it probably doesn't exist).
+. Could not resolve font "PMingLiU/BI" (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
@@ -1171,13 +1073,16 @@ LaTeX Info: Redefining \rmfamily on input line 16.
 . fontspec info: "defining-font"
 . 
 . Font family 'PMingLiU(0)' created for font 'PMingLiU' with options
-. [Script={CJK}].
+. [Script={CJK},AutoFakeBold={4}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
 . <->"PMingLiU/OT:script=latn;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"PMingLiU/OT:script=latn;language=DFLT;embolden=4;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
@@ -1187,43 +1092,20 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 (./masterThesis.aux)
 \openout1 = `masterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 23.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 23.
-
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
-File: omltxmi.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 23.
-
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omstxsy.fd
-File: omstxsy.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 23.
-
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omxtxex.fd
-File: omxtxex.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 23.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxexa.fd
-File: utxexa.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1244,12 +1126,12 @@ LaTeX Font Info:    ... okay on input line 23.
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1264,129 +1146,354 @@ LaTeX Font Info:    ... okay on input line 23.
 . 
 . Adjusting the maths setup (use [no-math] to avoid this).
 .................................................
-\symlegacymaths=\mathgroup10
+\symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
-LaTeX Font Info:    Redeclaring math accent \check on input line 23.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 9.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 9.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 9.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 9.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 9.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 9.
+LaTeX Font Info:    Redeclaring math accent \check on input line 9.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 9.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 9.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 9.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 23.
+(Font)              `operators' in the math version `normal' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/txr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-3.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 9
+.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 23.
+(Font)              `operators' in the math version `bold' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-23.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 23.
+input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/txr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 23.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/txr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 23.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
+ 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> TU/txss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> TU/txtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 23.
+ input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 23.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
+ne 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> TU/txss/bx/n on input line 23.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> TU/txtt/bx/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 9.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count304
-\AtBeginShipoutBox=\box48
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 24.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
+\AtBeginShipoutBox=\box53
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 24.
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 24.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 24.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 24.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
-
-LaTeX Warning: No \author given.
-
-
-LaTeX Font Warning: Font shape `TU/PMingLiU(0)/bx/n' undefined
-(Font)              using `TU/PMingLiU(0)/m/n' instead on input line 26.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-
- []
-
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 1>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 1>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 1>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 1>
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
-[1
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 1>
+ [1
 
-] (./masterThesis.toc)
+]
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 2>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 2>
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+File: cover_v1.pdf Graphic file (type pdf)
+<use cover_v1.pdf, page 2>
+
+[2] (./abstractCh.tex
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [1]) (./abstractEn.tex
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [2]) (./masterThesis.toc)
 \tf@toc=\write3
 \openout3 = `masterThesis.toc'.
 
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [2] (./masterThesis.lof)
-\tf@lof=\write4
-\openout4 = `masterThesis.lof'.
+ [3]
+(./masterThesis.lot)
+\tf@lot=\write4
+\openout4 = `masterThesis.lot'.
 
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [3] (./section1.tex
+ [4] (./masterThesis.lof)
+\tf@lof=\write5
+\openout5 = `masterThesis.lof'.
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [5] (./section1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[1]
+File: /Users/FUDA/Documents/masterThesis/image/xml1.png Graphic file (type bmp)
+
+</Users/FUDA/Documents/masterThesis/image/xml1.png>
+
+Overfull \hbox (2.8126pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/xml2.png Graphic file (type bmp)
+
+</Users/FUDA/Documents/masterThesis/image/xml2.png>
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[2]
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [3]
+File: /Users/FUDA/Documents/masterThesis/image/schema.png Graphic file (type bm
+p)
+</Users/FUDA/Documents/masterThesis/image/schema.png>
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/RDD.png Graphic file (type bmp)
+</Users/FUDA/Documents/masterThesis/image/RDD.png>
+
+Overfull \hbox (7.27406pt too wide) in paragraph at lines 47--54
+[]\TU/TimesNewRoman(0)/m/n/12 Apache Spark \TU/PMingLiU(0)/m/n/12 主 要 的 對 資 料 的
+ 操 作 是 使 用 叫 做 \TU/TimesNewRoman(0)/m/n/12 RDD(Resilient Distributed Datasets\T
+U/PMingLiU(0)/m/n/12 ，|
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/spark.png Graphic file (type bmp
+)
+</Users/FUDA/Documents/masterThesis/image/spark.png>
+
+Overfull \hbox (6.85426pt too wide) in paragraph at lines 60--61
+[][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[6]
+File: /Users/FUDA/Documents/masterThesis/image/streaming-dstream-ops.png Graphi
+c file (type bmp)
+</Users/FUDA/Documents/masterThesis/image/streaming-dstream-ops.png>
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[9])
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [10] (./section2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/xmlself.png Graphic file (type b
+mp)
+</Users/FUDA/Documents/masterThesis/image/xmlself.png>
+
+Overfull \hbox (49.30733pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/xmlHadoop.png Graphic file (type
+ bmp)
+</Users/FUDA/Documents/masterThesis/image/xmlHadoop.png>
+
+Overfull \hbox (5.23717pt too wide) in paragraph at lines 25--26
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[13]
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [14]) (./section3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/uml.png Graphic file (type bmp)
+</Users/FUDA/Documents/masterThesis/image/uml.png>
+
+Overfull \hbox (78.67361pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+
+ []
+
+)
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [17] (./section4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
@@ -1396,115 +1503,282 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
 
  []
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-(./example.xml)
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [4] (./john.xml) (./business.xsd)
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
 
-LaTeX Warning: Citation `hadoop' on page 5 undefined on input line 22.
+ []
 
+File: /Users/FUDA/Documents/masterThesis/image/model.png Graphic file (type bmp
+)
+</Users/FUDA/Documents/masterThesis/image/model.png>
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
-[5]
+[19]
+File: /Users/FUDA/Documents/masterThesis/image/dimension.png Graphic file (type
+ bmp)
+</Users/FUDA/Documents/masterThesis/image/dimension.png>
+
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
  []
 
-
-LaTeX Warning: Citation `spark' on page 6 undefined on input line 29.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
- []
-
-
-LaTeX Warning: Citation `rdd' on page 6 undefined on input line 30.
-
-File: /Users/FUDA/Documents/latex/masterThesis/image/RDD.png Graphic file (type
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[20]
+File: /Users/FUDA/Documents/masterThesis/image/attribute.png Graphic file (type
  bmp)
-</Users/FUDA/Documents/latex/masterThesis/image/RDD.png>
-File: /Users/FUDA/Documents/latex/masterThesis/image/spark.png Graphic file (ty
-pe bmp)
-</Users/FUDA/Documents/latex/masterThesis/image/spark.png>
+</Users/FUDA/Documents/masterThesis/image/attribute.png>
 
-Overfull \hbox (151.3881pt too wide) in paragraph at lines 41--42
+Overfull \hbox (60.52808pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: image/watermark.jpg Graphic file (type bmp)
-<image/watermark.jpg>
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-
- []
-
-File: image/watermark.jpg Graphic file (type bmp)
-<image/watermark.jpg>
-[7]
-
-LaTeX Warning: Citation `bigdata' on page 8 undefined on input line 67.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-
- []
-
-
-LaTeX Warning: Citation `veracitymodel' on page 8 undefined on input line 69.
 
 )
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [8] (./section2.tex)
+ [21] (./section5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/dataflow.png Graphic file (type 
+bmp)
+</Users/FUDA/Documents/masterThesis/image/dataflow.png>
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [9] (./section3.tex)
+[22]
+File: /Users/FUDA/Documents/masterThesis/image/recv.png Graphic file (type bmp)
+
+</Users/FUDA/Documents/masterThesis/image/recv.png>
+File: /Users/FUDA/Documents/masterThesis/image/process.png Graphic file (type b
+mp)
+</Users/FUDA/Documents/masterThesis/image/process.png>
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [10] (./section4.tex)
+ [23]
+File: /Users/FUDA/Documents/masterThesis/image/VeracityArch.png Graphic file (t
+ype bmp)
+</Users/FUDA/Documents/masterThesis/image/VeracityArch.png>
 File: image/watermark.jpg Graphic file (type bmp)
 <image/watermark.jpg>
- [11]
-(./masterThesis.aux)
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/xmlVeracity.png Graphic file (ty
+pe bmp)
+</Users/FUDA/Documents/masterThesis/image/xmlVeracity.png>
+
+Overfull \hbox (41.4569pt too wide) in paragraph at lines 48--49
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[25]
+File: /Users/FUDA/Documents/masterThesis/image/createModel.png Graphic file (ty
+pe bmp)
+</Users/FUDA/Documents/masterThesis/image/createModel.png>
+
+Overfull \hbox (11.34148pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
 
 
-LaTeX Warning: There were undefined references.
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 
- ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[27]
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+
+ []
+
+File: /Users/FUDA/Documents/masterThesis/image/lab1.png Graphic file (type bmp)
+
+</Users/FUDA/Documents/masterThesis/image/lab1.png>
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[30]
+File: /Users/FUDA/Documents/masterThesis/image/lab2.png Graphic file (type bmp)
+
+</Users/FUDA/Documents/masterThesis/image/lab2.png>
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [31]
+File: /Users/FUDA/Documents/masterThesis/image/min500.png Graphic file (type bm
+p)
+</Users/FUDA/Documents/masterThesis/image/min500.png>
+
+Overfull \hbox (13.14822pt too wide) in paragraph at lines 244--245
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[32]
+File: /Users/FUDA/Documents/masterThesis/image/max500.png Graphic file (type bm
+p)
+</Users/FUDA/Documents/masterThesis/image/max500.png>
+
+Overfull \hbox (56.50978pt too wide) in paragraph at lines 252--253
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[33]
+File: /Users/FUDA/Documents/masterThesis/image/min700.png Graphic file (type bm
+p)
+</Users/FUDA/Documents/masterThesis/image/min700.png>
+
+Overfull \hbox (9.98642pt too wide) in paragraph at lines 306--307
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[34]
+File: /Users/FUDA/Documents/masterThesis/image/max700.png Graphic file (type bm
+p)
+</Users/FUDA/Documents/masterThesis/image/max700.png>
+
+Overfull \hbox (27.15039pt too wide) in paragraph at lines 314--315
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[35]
+File: /Users/FUDA/Documents/masterThesis/image/min900.png Graphic file (type bm
+p)
+</Users/FUDA/Documents/masterThesis/image/min900.png>
+
+Overfull \hbox (42.50763pt too wide) in paragraph at lines 367--368
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[36]
+File: /Users/FUDA/Documents/masterThesis/image/max900.png Graphic file (type bm
+p)
+</Users/FUDA/Documents/masterThesis/image/max900.png>
+
+Overfull \hbox (56.96149pt too wide) in paragraph at lines 375--376
+ [][] 
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[37]
+Overfull \hbox (11.56998pt too wide) in paragraph at lines 424--425
+\TU/TimesNewRoman(0)/m/n/12 ment_valid() \TU/PMingLiU(0)/m/n/12 的 屬 性 會 是 效 能 瓶
+ 頸。|  而 在 處 理 小 檔 案 的 時 候 反 而 是 \TU/TimesNewRoman(0)/m/n/12 document_version()
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[38]) (./section6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+)
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [39] (./masterThesis.bbl
+*************************************************
+* xeCJK warning: "CJKfamily-Unknown"
+* 
+* Unknown CJK family `\CJKttdefault' is being ignored.
+* 
+* Try to use `\setCJKmonofont[...]{...}' to define it.
+*************************************************
+
+Underfull \hbox (badness 6944) in paragraph at lines 9--12
+[]\TU/TimesNewRoman(0)/m/n/12 The 5V’s of big data.  $[][][][][] [] [] [] [][][
+] [] [][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][][] []
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[40]
+Underfull \hbox (badness 3679) in paragraph at lines 129--132
+[]\TU/TimesNewRoman(0)/m/n/12 The data generation tool – xmlgen.  $[][][][][] [
+] [] [] [][][][][][][][] [] [][][] [] [][] [] [][][][][] []
+ []
+
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+[41])
+File: image/watermark.jpg Graphic file (type bmp)
+<image/watermark.jpg>
+ [42] (./masterThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 18376 strings out of 492970
- 381066 string characters out of 6133938
- 521084 words of memory out of 5000000
- 22146 multiletter control sequences out of 15000+600000
- 550818 words of font info for 118 fonts, out of 8000000 for 9000
+ 18787 strings out of 492970
+ 396654 string characters out of 6133938
+ 498224 words of memory out of 5000000
+ 22535 multiletter control sequences out of 15000+600000
+ 533898 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 42i,10n,65p,10442b,1066s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,18n,67p,10455b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on masterThesis.pdf (11 pages).
+Output written on masterThesis.pdf (49 pages).

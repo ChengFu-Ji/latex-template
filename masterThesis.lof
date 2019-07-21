@@ -1,2 +1,28 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces RDD結構\relax }}{6}
-\contentsline {figure}{\numberline {2}{\ignorespaces Apache Spark 核心架構\relax }}{7}
+\contentsline {figure}{\numberline {1}{\ignorespaces example1.xml\relax }}{2}
+\contentsline {figure}{\numberline {2}{\ignorespaces example2.xml\relax }}{3}
+\contentsline {figure}{\numberline {3}{\ignorespaces XML Schema\relax }}{4}
+\contentsline {figure}{\numberline {4}{\ignorespaces RDD結構\relax }}{6}
+\contentsline {figure}{\numberline {5}{\ignorespaces Apache Spark 核心架構\relax }}{7}
+\contentsline {figure}{\numberline {6}{\ignorespaces Spark Streaming 微批次資料操作 \relax }}{7}
+\contentsline {figure}{\numberline {7}{\ignorespaces XML 自描述範例\relax }}{11}
+\contentsline {figure}{\numberline {8}{\ignorespaces XML在Hadoop的切割與平行化\relax }}{13}
+\contentsline {figure}{\numberline {9}{\ignorespaces 真實度模型\relax }}{17}
+\contentsline {figure}{\numberline {10}{\ignorespaces Model 抽象類別設計\relax }}{19}
+\contentsline {figure}{\numberline {11}{\ignorespaces Dimension 抽象類別設計\relax }}{20}
+\contentsline {figure}{\numberline {12}{\ignorespaces Attribute 抽象類別設計\relax }}{21}
+\contentsline {figure}{\numberline {13}{\ignorespaces 資料接收與儲存流程\relax }}{23}
+\contentsline {figure}{\numberline {14}{\ignorespaces 資料傳輸處理模組\relax }}{23}
+\contentsline {figure}{\numberline {15}{\ignorespaces 資料真實度計分模組\relax }}{24}
+\contentsline {figure}{\numberline {16}{\ignorespaces 系統架構圖\relax }}{24}
+\contentsline {figure}{\numberline {17}{\ignorespaces 真實度模型\relax }}{25}
+\contentsline {figure}{\numberline {18}{\ignorespaces 模型建立演算法\relax }}{26}
+\contentsline {figure}{\numberline {19}{\ignorespaces client傳送速率實驗\relax }}{30}
+\contentsline {figure}{\numberline {20}{\ignorespaces 處理模組之處理速度實驗\relax }}{31}
+\contentsline {figure}{\numberline {21}{\ignorespaces doc10.xml profiling 效能分析\relax }}{33}
+\contentsline {figure}{\numberline {22}{\ignorespaces doc5216.xml profiling 效能分析\relax }}{33}
+\contentsline {figure}{\numberline {23}{\ignorespaces doc4.xml profiling 效能分析\relax }}{35}
+\contentsline {figure}{\numberline {24}{\ignorespaces doc5216.xml profiling 效能分析\relax }}{35}
+\contentsline {figure}{\numberline {25}{\ignorespaces doc3.xml profiling 效能分析\relax }}{37}
+\contentsline {figure}{\numberline {26}{\ignorespaces doc5223.xml profiling 效能分析\relax }}{37}
+\contentsfinish 
+\contentsfinish 
