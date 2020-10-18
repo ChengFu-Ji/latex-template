@@ -5,12 +5,12 @@
 \subsection{模型實作}
 真實度模型的建立，其中最重要的就是彈性以及程式的重用性，也就是用物件導向程式設計的特性來達到程式碼的重用，這在於模型是使用者決定他所認為的兩個文件真實度所具備的屬性，也就是說每個人所認為的真實度不同，在實作上就會有所不同，本研究設計真實度模型的抽象類別，首先對於XML文件真實度而言，設計一個真實度模型(Veracity Model)，模型當中會具有多個維度(Dimension $D_i,  i=1\ to\ n$)，在每一個維度之下會有多個屬性(Attribute $A_{i, j}, j=1\ to\ n$)來描述此維度，並且每一個維度需要有一個量化方法，對應到物件導向上可以將模型視為一個抽象類別，維度視為一個抽象類別，屬性視為一個抽象類別，所以程式上設計了 Model、Dimension、Attribute三個主要的抽象類別讓使用者去繼承並實作。\\\par
 如前面提到因為一個XML文件的真實度是可以有很多面向，換言之就是可以從很多維度去探討，維度裡面會有很多屬性，這一些屬性都會有一個對於XML真實度的量化方式。\\\par
-API的最上層是Model，Model底下會有真實度模型的各項元件。而Python本身沒有支援抽象類別的設計，所以要使用Python設計抽象類別就必須載入一個叫做abc的模組，並且在想要抽象的方法前面加入前綴，才能實現抽象類別的設計。整體抽象類別的設計如圖\ref{model}所示，在Model 當中 ，第7行設有dimension的list，用於建立此模型的維度，使用者必須將設計好的1到n個維度傳入這個list當中儲存，利用物件導向的特性，當Dimension的物件與Model的物件產生後，可以將多個Dimension 物件也就是多個維度使用第11行set\_dimension()的方法儲存到 dimension 這個list當中，接著在第15行設計get\_dimension()的方法來取得這個模型下的維度list。而最後需要計算模型的整體分數Veracity Value，所以在第19行設計有 veracity\_value()的方法，用以計算模型的整體分數。
+API的最上層是Model，Model底下會有真實度模型的各項元件。而Python本身沒有支援抽象類別的設計，所以要使用Python設計抽象類別就必須載入一個叫做abc的模組，並且在想要抽象的方法前面加入前綴，才能實現抽象類別的設計。整體抽象類別的設計如圖\ref{model}所示，在Model 當中 ，第7行設有dimension的list，用於建立此模型的維度，使用者必須將設計好的1到n個維度傳入這個list當中儲存，利用物件導向的特性，當Dimension的物件與Model的物件產生後，可以將多個Dimension 物件也就是多個維度使用第11行set\_dimension()的方法儲存到 dimension 這個list當中，接著在第15行設計get\_dimensions()的方法來取得這個模型下的維度list。而最後需要計算模型的整體分數Veracity Value，所以在第19行設計有 veracity\_value()的方法，用以計算模型的整體分數。
 
 \begin{figure}[H]
 \centering
 \graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
-\includegraphics[scale=0.4]{model.png}
+\includegraphics[scale=0.5]{model.png}
 \caption{Model 抽象類別設計}
 \label{model}
 \end{figure}
@@ -20,7 +20,7 @@ API的最上層是Model，Model底下會有真實度模型的各項元件。而P
 \begin{figure}[H]
 \centering
 \graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
-\includegraphics[scale=0.4]{dimension.png}
+\includegraphics[scale=0.5]{dimension.png}
 \caption{Dimension 抽象類別設計}
 \label{dimension}
 \end{figure}
@@ -30,8 +30,89 @@ API的最上層是Model，Model底下會有真實度模型的各項元件。而P
 \begin{figure}[H]
 \centering
 \graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
-\includegraphics[scale=0.5]{attribute.png}
+\includegraphics[scale=0.4]{attribute.png}
 \caption{Attribute 抽象類別設計}
 \label{attribute}
 \end{figure}
 以上Model、Dimension、Attribute三大類別構成了真實度模型的基礎架構，模型的建立由使用者繼承維這三大類別，使用者須先實作完屬性的量化方式接著產生屬性物件並添加至維度之內，接者再將維度物件添加至模型當中，並且在實作每一個類別的時候，須將抽象類別當中的量化方法實作完畢，接著在模型中計算總體量化的分數。\\\par
+\subsection{API串接介面及文件}
+上述的API介面將包裝成Python 可以用的模組，開發者在使用的時候可以直接依專案環境載入類別進行實作，範例如圖\ref{import}所示：
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.4]{import.png}
+\caption{模組的載入使用}
+\label{import}
+\end{figure}
+在第3行到第5行是Python載入外部模組的語法，開發者可以依照這樣的模式使用本研究的API，用以開發適合自己手上資料的真實度模型。\\\par
+在模組當中包含有API文件，提供使用者更詳細的使用資訊以及使用範例。文件當中包含了兩個部分，model模組當中的函數說明以及如何將模型實作出來的使用範例，以下將分為兩部分介紹。\\\par
+
+首先是model模組中的函數說明，第一個將針對Model類別說明，如圖\ref{modelapi}所示。當中描述了使用此類別所需要的建構子參數，再來該類別文件也描述了底下的抽象方法規定了需要什麼參數，或是實作之後需回傳何種型態的資料。在Model類別物件初始化的時候，規定建構子需具備三個參數，分別是模型名稱、基準文件以及被量測文件。這是真實度模型最一開始的雛形，接著需按照文件的規範將抽象方法進行實作。
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.6]{modelapi.png}
+\caption{Model類別之API文件}
+\label{modelapi}
+\end{figure}
+
+再來是Dimension類別的API文件，其架構如圖\ref{dimensionapi}所示。在建構子的部分規定開發者在物件初始化的時候須傳入維度名稱，以供模型識別。接著一樣需按照文件規範將抽象方法進行實作，並且傳入適合的參數或是回傳正確型態的資料。
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.6]{dimensionapi.png}
+\caption{Dimension類別之API文件}
+\label{dimensionapi}
+\end{figure}
+
+最後是Attribute類別的API文件，如圖\ref{attributeapi}。這個類別較為特殊 ，只有一個抽象方法。所以使用者只需將量化方式進行實作，而另一個函數已經設定為回傳類別名稱，不需進行修改。
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.6]{attributeapi.png}
+\caption{Attribute類別之API文件}
+\label{attributeapi}
+\end{figure}
+
+第二部分為模型實作的使用範例，文件中的範例將分為新增模型、新增維度、新增屬性以及綜合使用等四個部分。首先是新增模型的部分，如圖\ref{createmodelapi}所示。將Model載入後進行繼承，接著依照API文件的規定進行實作，而在模組當中的抽象類別只有將其架構進行定義，而實作必須在這裡完成。再來是新增維度的部分，如圖\ref{createdimensionapi}所示。如同使用Model類別一樣，將Dimension類別載入後進行繼承，並且將裡面的抽象方法填入實作。最後是新增屬性，這個相對單純，同樣的對Attribute類別進行繼承，且只需要將量化方式進行實作即可，如圖\ref{createattributeapi}所示
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.8]{createmodelapi.png}
+\caption{新增模型之使用範例}
+\label{createmodelapi}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.7]{createdimensionapi.png}
+\caption{新增維度之使用範例}
+\label{createdimensionapi}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.7]{createattributeapi.png}
+\caption{新增屬性之使用範例}
+\label{createattributeapi}
+\end{figure}
+
+將所有抽象類別都進行完實作之後，即可開始建構模型及設定需要多少維度及多少屬性，假設這次需要建構四個屬性，那麼就需要製作四個類別，且每一個類別都需繼承Attribute抽象類別，如圖\ref{create4att}所示：
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.7]{create4att.png}
+\caption{製作四個屬性}
+\label{create4att}
+\end{figure}
+
+接著即刻開始建構真實度模型，使用實作好的類別將模型堆疊起來，如圖\ref{modelstruct}所示，將之前建立好的類別製作成物件，並且使用set\_attribute()將屬性添加至維度當中，再使用set\_dimension()將維度添加至模型當中，完成模型的建構。
+\begin{figure}[H]
+\centering
+\graphicspath{{/Users/FUDA/Documents/masterThesis/image/}}
+\includegraphics[scale=0.7]{modelstruct.png}
+\caption{建構模型}
+\label{modelstruct}
+\end{figure}

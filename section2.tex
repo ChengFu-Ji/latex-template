@@ -1,5 +1,5 @@
 \section{相關研究}
-本研究建構一個在Apache Spark 叢集上的Veracity真實度模型，且應用於串流XML的真實度計算，而以往的真實度研究在大部分的文獻中都是討論文件相似度。再來XML具有樹狀結構以及自描述(self-desc特性，所以在分散式系統處理XML的時候，如何切割文件，但依然保有XML文件樹狀結構和父子節點的關係，以及在Hadoop或是Apache Spark的分散式架構下做XML的Query。本章節將就有關這些議題的文獻來做討論。
+本研究建構一個在Apache Spark 叢集上的Veracity真實度模型，且應用於串流XML的真實度計算，而以往的真實度研究在大部分的文獻中都是討論文件相似度。再來XML具有樹狀結構以及自描述(self-descriptive)特性，所以在分散式系統處理XML的時候，如何切割文件，但依然保有XML文件樹狀結構和父子節點的關係，以及在Hadoop或是Apache Spark的分散式架構下做XML的Query。本章節將就有關這些議題的文獻來做討論。
 \subsection{XML文件特性}
 XML結構與網頁使用的HTML十分相似，而兩者最大的不同為XML的設計為用來做資料傳輸，而HTML的設計是用來呈現資料。再者XML雖然可以自行定義Tag名稱，但有嚴格的巢狀結構規定。而HTML雖然在Tag的命名上沒有那麼自由，但有一些Tag沒有遵守巢狀結構的規定卻依然可以作動。\\\par
 在\cite{w3sxml}\cite{2005xml}當中，針對XML的特性描述提到，XML可以表示成樹狀結構以及XML具有自描述(self-descriptive)的特性，以及XML可以使用如DTD或是Schema來規範其內容結構。\\\par

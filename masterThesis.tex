@@ -3,9 +3,6 @@
 
 \input{config}
 
-\CenterWallPaper{.18}{image/watermark.jpg}
-
-
 \begin{document}
 \includepdf[pages={1,2}]{cover_v1.pdf} 
 \pagenumbering{Roman}
@@ -63,6 +60,7 @@
 \addcontentsline{toc}{section}{參考文獻}
 \begin{center}
 \renewcommand{\refname}{\textbf{參考文獻}}
+\bibliographystyle{plain}
 \bibliography{reference.bib}
 \end{center}
 \end{document}
